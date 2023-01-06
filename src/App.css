@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+
+.App {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10%;
+  margin-left: 23%;
+  border-radius: 42px;
+  padding: 50px;
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.userBox {
+  width:380px;
+  height: 230px;
+  box-shadow: 0 1px 1px rgba(50,50,50,.40);
+  background: #fff;
+  border-radius:8px;
+  margin:20px auto;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  background: #EBEAEE;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.userPic {
+  position:absolute;
+  box-shadow: 0 2px 2px rgba(50,50,50,.50);
+  width:125px;
+  height: 125px;
+  border:7px solid #fff;
+  border-radius:50%;
+  margin:10px;
+  margin-left:-55px;
+  display:inline-block;
+  margin-top:-45px;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample4.jpg');
+  background-size:cover;
+  background-position:0 -45px;
+}
+
+.header {
+  background: blue;
+  background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg');
+  background-size:cover;
+  height:150px;
+  border-radius:8px 8px 0 0;
+  text-align:center;
+  line-height:15em;
+}
+
+.middle {
+  text-align:center;
+  height:110px;
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(50,50,50,.50);
+  line-height:.5em;
+  margin-top:-15px;
+  color:#9FA2B4;
+}
+
+p {
+  margin-top:50px;
+  padding-top:5px;
+}
+
+.btn {
+  width: 1%;
+  float: left;
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 15px;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
+
